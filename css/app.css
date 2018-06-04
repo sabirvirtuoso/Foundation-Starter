@@ -1,0 +1,139 @@
+.top-bar {
+    background-color: white;
+}
+
+.title-bar {
+    background: white;
+}
+
+.top-bar ul {
+    background-color: white; }
+
+
+@media screen and (max-width: 39.9375em) {
+  .top-bar .top-bar-left {
+    display: none;
+  }
+}
+
+.orbit-container {
+  position: relative;
+  height: auto;
+}
+
+#splash-container {
+  position: relative;
+  height: 500px;
+}
+
+#splash-caption {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 60%;
+	max-height: 90%;
+    min-height: 35%;
+    background: rgba(41,56,128,0.77);
+}
+
+#client-content {
+    top: 0;
+    right: 0;
+    width: 50%;
+    background: rgba(41,56,128,0.77);
+}
+
+.docs-example-orbit-slide {
+    padding: 2rem 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #client-content {
+        width: 100%;
+        top: 40%;
+    }
+    
+    #splash-caption {
+        width: 100%;    
+    }
+    
+    #splash-caption > div {
+        text-align: center;
+    }
+    
+    .orbit-caption > h1, .orbit-caption > h4 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #client-content {
+        width: 100%;
+        top: 0;
+    }
+}
+
+h1.underline:after {
+    content:' ';
+    display: block;
+    border: 2px solid #505083;
+    width: 20%;
+    position: relative;
+    left: 40%;
+}
+
+.tech-slideshow {
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+    height: 100%;
+    width: 5000px;
+    background: url(../img/teh.jpg);
+    position: absolute;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover {
+    animation: moveSlideshow 20s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% { 
+        transform: translateX(-53.8462%);  
+    }
+}
+
+#partner-with-us-container { 
+    background: #f1f1f1f1;
+}
+
+#partner-with-us-heading, #partner-with-us-content, #partner-with-us-button { 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact-us {
+    background: #686868;
+}
+
+.contact-us-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-us-content, .copyright-content {
+    color: white;
+}
+
+#copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #4A4A4A;
+}
