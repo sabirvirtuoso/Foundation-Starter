@@ -36,6 +36,14 @@
     background: rgba(41,56,128,0.77);
 }
 
+.major-technology-container {
+    margin-top: 1rem;
+}
+
+.major-technology-caption {
+    background: rgba(41,56,128,0.77);
+}
+
 #client-content {
     top: 0;
     right: 0;
@@ -45,6 +53,10 @@
 
 .docs-example-orbit-slide {
     padding: 2rem 2rem;
+}
+
+.orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
+    background-color: transparent;
 }
 
 @media screen and (max-width: 1024px) {
